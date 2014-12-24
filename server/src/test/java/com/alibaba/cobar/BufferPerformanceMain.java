@@ -28,7 +28,7 @@ public class BufferPerformanceMain {
 
         int count = 1000000;
         System.currentTimeMillis();
-
+ 
         long t1 = System.currentTimeMillis();
         for (int i = 0; i < count; i++) {
             buffer.position(0);
